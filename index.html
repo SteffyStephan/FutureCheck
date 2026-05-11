@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutureCheck | Relocation Intelligence</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">FutureCheck</div>
+        <div id="auth-section">
+            <button id="login-btn">Login with Google</button>
+            <span id="user-display" class="hidden" style="color: #6b21a8; font-weight: 600;"></span>
+        </div>
+    </nav>
+
+    <header>
+        <div class="hero">
+            <h1>Relocation Made Smarter</h1>
+            <p>Analyze weather, AQI, and housing before you move.</p>
+            <div class="search-area">
+                <input type="text" id="city-input" placeholder="Enter city (e.g. Surat, Mumbai)">
+                <input type="number" id="user-budget" placeholder="Monthly Budget (₹)">
+                <button id="search-btn">Analyze Location</button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-dashboard" class="hidden">
+        <div class="grid-container">
+            <div class="card"><h3>🌡️ Weather</h3><h2 id="temp">--°C</h2><p id="weather-desc">Loading...</p></div>
+            <div class="card"><h3>🌬️ Air Quality</h3><h2 id="aqi-val">--</h2><p id="aqi-status">Status: --</p></div>
+            <div class="card"><h3>🏠 Housing</h3><h2 id="house-availability">Checking...</h2><p id="rent-estimate">Avg. Rent: --</p><div id="budget-badge" class="badge">--</div></div>
+            <div class="card"><h3>🚆 Transit</h3><h2 id="travel-status">High Access</h2><p id="transit-nearby">3 Hubs Nearby</p></div>
+        </div>
+        <section class="map-container">
+            <h3 style="text-align: center; margin-bottom: 20px; color: #6b21a8;">Location Radar</h3>
+            <div id="map"></div>
+        </section>
+    </main>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

@@ -1,2 +1,14 @@
-# FutureCheck
-FutureCheck is a smart web application that helps users decide whether a place is suitable for relocation. It provides information such as weather, air quality index (AQI), housing availability, nearby facilities, and transportation to help users make better shifting decisions. It is built by using HTML, CSS, JavaScript, Firebase, real-time APIs.
+# FutureCheck | Relocation Intelligence Tool
+
+FutureCheck is a web application designed to help users make informed decisions about relocating to new cities. It analyzes real-time weather, air quality (AQI), and housing budget feasibility.
+
+## 🚀 Features
+* **Google Authentication:** Secure login using Firebase Auth.
+* **Real-time Weather & AQI:** Fetches data via OpenWeather API.
+* **Budget Logic:** Intelligent budget checking for major Indian cities.
+* **Location Radar:** Simulated scanning interface for urban facilities.
+
+## 🛠️ Tech Stack
+* **Frontend:** HTML5, CSS3 (Custom Purple Theme), JavaScript (ES6 Modules)
+* **Backend/Auth:** Firebase
+* **APIs:** OpenWeatherMap API
