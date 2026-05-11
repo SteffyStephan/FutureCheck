@@ -12,3 +12,17 @@ FutureCheck is a web application designed to help users make informed decisions 
 * **Frontend:** HTML5, CSS3 (Custom Purple Theme), JavaScript (ES6 Modules)
 * **Backend/Auth:** Firebase
 * **APIs:** OpenWeatherMap API
+
+## 📸 App Walkthrough
+
+### 1. Landing Page
+![Hero Section](hero-section.jpg.png)
+
+### 2. Secure Authentication
+![Google Login](google-login.png.png)
+
+### 3. Real-time Insights
+![Analysis Results](analysis-result.jpg.png)
+
+### 4. Location Radar
+![Location Radar](location-radar.png.png)
